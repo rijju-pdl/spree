@@ -1,7 +1,7 @@
-Feature:Login
-    As a user
-    I want to login to the application
-    So that i can access to the home page
+Feature: login
+    As an admin
+    I want to login to the website's admin panel
+    So that i can manage my products
 
  Scenario: Login with valid credential
      Given the user has navigated to the login page
