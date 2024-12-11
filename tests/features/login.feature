@@ -4,9 +4,9 @@ Feature: login
     So that i can manage my products
 
  Scenario: login with valid credentials
-     Given the user has navigated to the login page
-     When the user login with email "admin@admin.com" and password "admin123456"
-     Then the user should we navigated to the homepage.
+     Given user "admin" has navigated to the login page
+     When user "admin" logs in with email "admin@admin.com" and password "admin123456"
+     Then user "admin" should we navigated to the admin panel dashboard
 
 Scenario:Login with invalid credential
     Given the user has navigated to the login page
