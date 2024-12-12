@@ -1,7 +1,7 @@
 Feature:Login
     As an admin
     I want to login to the webiste's admin panel
-    So that i can access to the home page
+    So that I can access to the home page
 
  Scenario: login with valid credentials
      Given  user "admin" has navigated to the login page
