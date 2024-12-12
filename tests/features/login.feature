@@ -6,10 +6,10 @@ Feature:Login
  Scenario: login with valid credentials
      Given  user "admin" has navigated to the login page
      When  user "admin" logs in with email "admin@admin.com" and password "admin123456"
-     Then user "admin" should we navigated to the admin panel dashboard.
+     Then user "admin" should be navigated to the admin panel dashboard.
 
 Scenario:login with invalid credentials
     Given user "admin" has navigated to the login page
-    When the user "admin" login with email "admin@admin.com" and password "hi12345"
+    When user "admin" logs in with email "admin@admin.com" and password "hi12345"
     Then the "Invalid Crediantials" message should be pop in the login page.
     
