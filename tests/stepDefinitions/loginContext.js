@@ -1,6 +1,6 @@
 const {expect} = require('@playwright/test');
 const { Given, When, Then } = require("@cucumber/cucumber");
-const {LoginPage} = require("../pageObjects/LoginPage")
+const {LoginPage} = require("../pageObjects/LoginPage");
 const loginPage = new LoginPage();
 
 Given('the user {string} has navigated to the login page',  async function (user) {
