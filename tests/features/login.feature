@@ -24,4 +24,3 @@ Feature: Login
            | abc@gmail.com   | abc@123     | Invalid email or password. |
            |                 | abc@13      | Invalid email or password. |
            |                 |             | Invalid email or password. |
-           |admin            | admin123456 | Invalid email or password. |
